@@ -71,7 +71,7 @@ cd ~
 
 **Скріншот виконання:**
 
-![Завдання 1](assets/img/task1all.avif)
+![Завдання 1](assets/img/m1/task1all.avif)
 
 ---
 
@@ -102,7 +102,7 @@ ls -a
 
 Він відображає всі файли, включно з прихованими (назви яких починаються з крапки, наприклад `.bashrc`, `.config`).
 
-![ls -a](assets/img/task2_ans1.avif)
+![ls -a](assets/img/m1/task2_ans1.avif)
 
 ---
 
@@ -116,7 +116,7 @@ cat -n файл.txt
 
 Він нумерує кожен рядок виводу починаючи з 1.
 
-![cat -n](assets/img/task2_ans2.avif)
+![cat -n](assets/img/m1/task2_ans2.avif)
 
 ---
 
@@ -179,4 +179,4 @@ total 4
 
 **Скріншот виконання:**
 
-![Завдання 3](assets/img/task3all.avif)
+![Завдання 3](assets/img/m1/task3all.avif)
