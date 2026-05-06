@@ -29,10 +29,13 @@
 Linux_homework/
 ├── module1/
 │   ├── Fedotov_homework_1.md
+│   └── assets/img/
+├── module2/
 │   ├── Fedotov_homework_2.md
 │   └── assets/img/
-│       ├── m1/
-│       └── m2/
+├── module3/
+│   ├── Fedotov_homework_3.md
+│   └── assets/img/
 └── README.md
 ```
 
@@ -43,6 +46,7 @@ Linux_homework/
 | # | Модуль | Теми | Посилання |
 |---|--------|------|-----------|
 | 1 | Module 1 | Базові команди, документація (`man`, `--help`), міні-сценарій | [Переглянути](module1/Fedotov_homework_1.md) |
-| 2 | Module 1 | Файлова система (FHS), файли та посилання, права доступу, користувачі | [Переглянути](module1/Fedotov_homework_2.md) |
+| 2 | Module 2 | Файлова система (FHS), файли та посилання, права доступу, користувачі | [Переглянути](module2/Fedotov_homework_2.md) |
+| 3 | Module 3 | Процеси (`ps`, `htop`), керування фоном, пріоритети (`nice`, `renice`), моніторинг (`df`, `free`) | [Переглянути](module3/Fedotov_homework_3.md) |
 
 ---

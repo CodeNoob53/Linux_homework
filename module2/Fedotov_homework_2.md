@@ -26,7 +26,7 @@ cdrom home lib64  media       proc  sbin  swapfile  usr
 - `ls` — виводить вміст поточного каталогу
 - Видно ключові каталоги FHS: `bin` (команди), `etc` (конфіги), `home` (користувачі), `usr` (програми), `var` (змінні дані), `proc`/`sys` (віртуальні файлові системи)
 
-![Завдання 1 — кореневий каталог](assets/img/m2/task1_root.avif)
+![Завдання 1 — кореневий каталог](assets/img/task1_root.avif)
 
 ---
 
@@ -55,7 +55,7 @@ apparmor                deluser.conf     host.conf       locale.alias    os-rele
 - `/etc` містить конфігураційні файли всіх сервісів і програм: `hostname` (ім'я машини), `passwd` (користувачі), `hosts` (DNS), `fstab` (точки монтування), `ssh/` (налаштування SSH) тощо
 - Це "мерія" системи — тут зберігаються всі налаштування, окремо від програмного коду
 
-![Завдання 1 — /etc](assets/img/m2/task1_etc.avif)
+![Завдання 1 — /etc](assets/img/task1_etc.avif)
 
 ---
 
@@ -76,7 +76,7 @@ aleax
 - `ls` — виводить список папок, кожна з яких відповідає одному користувачу системи
 - У даному випадку в системі один користувач — `aleax`, його домашня директорія `/home/aleax`
 
-![Завдання 1 — /home](assets/img/m2/task1_home.avif)
+![Завдання 1 — /home](assets/img/task1_home.avif)
 
 ---
 
@@ -126,7 +126,7 @@ lrwxrwxrwx  1 aleax aleax   25 abr 20 22:22 file_symlink.txt -> /home/aleax/lab2
 - `file.txt` та `file_hard.txt` мають лічильник посилань `2` — це один і той самий inode (жорстке посилання)
 - `file_symlink.txt` позначений `l` і вказує стрілкою `->` на оригінал — символічне посилання
 
-![Завдання 2](assets/img/m2/task2_lab2.avif)
+![Завдання 2](assets/img/task2_lab2.avif)
 
 ---
 
@@ -168,7 +168,7 @@ umask
   - `644` — власник може читати і писати (`rw-`), група і інші — тільки читати (`r--`)
   - `755` — власник може все (`rwx`), група і інші — читати і виконувати (`r-x`)
 
-![Завдання 3](assets/img/m2/task3_permissions.avif)
+![Завдання 3](assets/img/task3_permissions.avif)
 
 ---
 
@@ -207,4 +207,4 @@ trainee:x:1001:1001::/home/trainee:/bin/bash
 | `/home/trainee` | /home/trainee | Домашній каталог |
 | `/bin/bash` | /bin/bash | Оболонка за замовчуванням |
 
-![Завдання 4](assets/img/m2/task4_user.avif)
+![Завдання 4](assets/img/task4_user.avif)
