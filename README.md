@@ -39,6 +39,9 @@ Linux_homework/
 ├── module4/
 │   ├── Fedotov_homework_4.md
 │   └── assets/
+├── module5/
+│   ├── Fedotov_homework_5.md
+│   └── assets/
 └── README.md
 ```
 
@@ -52,5 +55,6 @@ Linux_homework/
 | 2 | Module 2 | Файлова система (FHS), файли та посилання, права доступу, користувачі | [Переглянути](module2/Fedotov_homework_2.md) |
 | 3 | Module 3 | Процеси (`ps`, `htop`), керування фоном, пріоритети (`nice`, `renice`), моніторинг (`df`, `free`) | [Переглянути](module3/Fedotov_homework_3.md) |
 | 4 | Module 4 | Менеджери пакетів (`apt`), сервіси (`systemctl`), логи (`journalctl`, `syslog`), власний systemd-сервіс | [Переглянути](module4/Fedotov_homework_4.md) |
+| 5 | Module 5 | Мережева діагностика (`ip`, `ping`, `ss`), SSH з ключами та config, передача файлів (`scp`, `rsync`, `sftp`) | [Переглянути](module5/Fedotov_homework_5.md) |
 
 ---
