@@ -45,6 +45,9 @@ Linux_homework/
 ├── module6/
 │   ├── Fedotov_homework_6.md
 │   └── assets/
+├── module7/
+│   ├── Fedotov_homework_7.md
+│   └── assets/
 └── README.md
 ```
 
@@ -60,5 +63,6 @@ Linux_homework/
 | 4 | Module 4 | Менеджери пакетів (`apt`), сервіси (`systemctl`), логи (`journalctl`, `syslog`), власний systemd-сервіс | [Переглянути](module4/Fedotov_homework_4.md) |
 | 5 | Module 5 | Мережева діагностика (`ip`, `ping`, `ss`), SSH з ключами та config, передача файлів (`scp`, `rsync`, `sftp`) | [Переглянути](module5/Fedotov_homework_5.md) |
 | 6 | Module 6 | Bash-скрипт бекапу логів: перевірка аргументів, lock-файл, архівування (`tar`), обробка помилок | [Переглянути](module6/Fedotov_homework_6.md) |
+| 7 | Module 7 | Життєвий цикл Docker-контейнера: PID 1, сигнали (`SIGTERM`, `SIGKILL`), логи (`docker logs`), port mapping | [Переглянути](module7/Fedotov_homework_7.md) |
 
 ---
